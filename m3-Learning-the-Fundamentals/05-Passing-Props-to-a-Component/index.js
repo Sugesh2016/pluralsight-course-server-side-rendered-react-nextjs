@@ -9,6 +9,7 @@ const Hello = (props) => {
 };
 
 ReactDOM.render(
+    // React.createElement(Hello, {time: new Date().toLocaleTimeString()}, null),
     React.createElement(Hello, {time: new Date().toLocaleTimeString()}, null),
     document.getElementById('app')
 );
